@@ -143,13 +143,13 @@ actual = create_spend_chart([business, food, entertainment])
 
 expected = "Percentage spent by category\n100|          \n 90|          \n 80|          \n 70|    o     \n 60|    o     \n 50|    o     \n 40|    o     \n 30|    o     \n 20|    o  o  \n 10|    o  o  \n  0| o  o  o  \n    ----------\n     B  F  E  \n     u  o  n  \n     s  o  t  \n     i  d  e  \n     n     r  \n     e     t  \n     s     a  \n     s     i  \n           n  \n           m  \n           e  \n           n  \n           t  "
 
-print("EXPECTED")
-print(expected)
+# print("EXPECTED")
+# print(expected)
 
-file1 = open('chart.txt','w')
-file1.write(repr(actual) + '\n')
-file1.write(repr(expected) + '\n')
-file1.close()
+# file1 = open('chart.txt','w')
+# file1.write(repr(actual) + '\n')
+# file1.write(repr(expected) + '\n')
+# file1.close()
 
 # c1 = Category('Food')
 # print(c1.category)
